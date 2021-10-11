@@ -29,8 +29,15 @@ namespace Example
             #endregion
 
             #region
-
-
+            string newParagraph = Environment.NewLine;
+            Console.WriteLine(newParagraph);
+            Console.WriteLine("Once I had to create JSGF generative " +
+                "grammar in Latvian language. " +
+                @"After that I had to generate" +
+                " bundles of different texts " +
+                "using \"Python\". ");
+            string newLine = @"And I thought that it is really cool. " + Environment.NewLine + "Since then I wanted to know more about coding. ";
+            Console.WriteLine(newLine);
 
             #endregion
 

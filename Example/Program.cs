@@ -10,9 +10,8 @@ namespace Example
             string nameVariable = "Zane";
             string surnameVariable = "Rubene";
             string greetingsVariable = "classmates and teacher!";
-            Console.WriteLine("Hello World! ");
-            Console.WriteLine(@$"And my fellow {greetingsVariable}");
-            Console.WriteLine(@$"My name is {nameVariable} and my surname is {surnameVariable}.");
+            Console.WriteLine($"Hello World! \n $And my fellow {greetingsVariable} \n " +
+                $"My name is {nameVariable} and my surname is {surnameVariable}.");
             #endregion
 
             #region IntNumbers and concatenation
@@ -23,8 +22,8 @@ namespace Example
             int number4 = 515383;
             int resultOf = number3 / number4;
 
-            Console.WriteLine(@$"Last week was my birthday and I turned {resultAge}.");
-            Console.Write($"Do you know what's the result of 1354647 / 515383? " +
+            Console.WriteLine(@$"Last week was my birthday and I turned {resultAge}. " +
+                @"Do you know what's the result of 1354647 / 515383? " +
                 $"My computer knows - {resultOf}.");
             #endregion
 
@@ -46,6 +45,7 @@ namespace Example
             string goobye = "Have a great day!";
             Console.WriteLine(goobye.Contains("bad day"));
             Console.WriteLine(goobye.Contains("great day"));
+            Console.WriteLine(goobye);
 
             #endregion
 
@@ -59,30 +59,30 @@ namespace Example
             Console.WriteLine($"I just learned how to cast from int to string: {result}");
             #endregion
 
-            #region 
-            Console.WriteLine(Environment.NewLine);
-            int numVal = Int32.Parse("-105");
-            Console.WriteLine(numVal);
+            //#region 
+            //Console.WriteLine(Environment.NewLine);
+            //int numVal = Int32.Parse("-105");
+            //Console.WriteLine(numVal);
 
-            Console.WriteLine(Environment.NewLine);
-            decimal decimalVal = 0;
-            decimalVal = Convert.ToDecimal(decimalVal);
-            Console.WriteLine($"The string as a decimal is {decimalVal}.");
+            //Console.WriteLine(Environment.NewLine);
+            //decimal decimalVal = 0;
+            //decimalVal = Convert.ToDecimal(decimalVal);
+            //Console.WriteLine($"The string as a decimal is {decimalVal}.");
            
-            Console.WriteLine(Environment.NewLine);
-            int num = 2147483647;
-            long bigNum = num;
-            Console.WriteLine($"The result is {num}");
+            //Console.WriteLine(Environment.NewLine);
+            //int num = 2147483647;
+            //long bigNum = num;
+            //Console.WriteLine($"The result is {num}");
             
-            Console.WriteLine(Environment.NewLine);
-            double x = 1234.7;
-            int a;
-            a = (int)x;
-            Console.WriteLine(a);
+            //Console.WriteLine(Environment.NewLine);
+            //double x = 1234.7;
+            //int a;
+            //a = (int)x;
+            //Console.WriteLine(a);
 
-            Console.WriteLine(Environment.NewLine);
+            //Console.WriteLine(Environment.NewLine);
 
-            #endregion
+            //#endregion
 
             Console.ReadLine();
         }

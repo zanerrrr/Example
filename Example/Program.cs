@@ -33,8 +33,8 @@ namespace Example
             Console.WriteLine(newParagraph);
             Console.WriteLine("Once I had to create JSGF generative " +
                 "grammar in Latvian language. \n" +
-                "After that I had to generate" +
-                " bundles of different texts " +
+                "After that I had to generate " +
+                "bundles of different texts " +
                 "using \"Python\". ") ;
             Console.WriteLine(newLine);
 
